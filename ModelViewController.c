@@ -11,7 +11,7 @@
 void loadLanguageSelectionView(int *p1, int *p2, int *p3);
 void loadEnglishView(int *p1, int *p2, int *p3);
 void loadUyghurView(int *p1, int *p2, int *p3);
-void languageSelectionErrorView(char *c1);
+void languageSelectionErrorView(char c1);
 void loadModel();
 void loadController(int *p1, int *p2, int *p3);
 void selectLanguage(int *p1, int *p2, int *p3);
@@ -65,9 +65,9 @@ void loadChineseView(int *p1, int *p2, int *p3)
 	printf("3个数的降序排列: %d, %d, %d\n", *p1, *p2, *p3);
 }
 
-void languageSelectionErrorView(char *c1)
+void languageSelectionErrorView(char c1)
 {
-	printf("'%c' is not a command.\n");
+	printf("'%c' is not a command.\n", c1);
 }
 
 void loadController(int *p1, int *p2, int *p3)
