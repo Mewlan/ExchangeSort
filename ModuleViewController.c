@@ -1,5 +1,5 @@
 //
-//  ModuleViewController.c
+//  ModelViewController.c
 //  ExchangeSort
 //
 //  Created by Mewlan Musajan on 10/18/17.
@@ -10,13 +10,13 @@
 
 int main(int argc, char const *argv[])
 {
-	void loadModule();
-	loadModule();
+	void loadModel();
+	loadModel();
 
 	return 0;
 }
 
-void loadModule()
+void loadModel()
 {
 	void loadView(int *p1, int *p2, int *p3);
 	int a, b, c, *p1, *p2, *p3;
